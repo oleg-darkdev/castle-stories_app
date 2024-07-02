@@ -1,4 +1,6 @@
-// import FactSheet from './ui/landing/FactSheet.svelte';
+import InfoCard from './ui/landing/InfoCard.svelte';
+import SliderCard from './ui/landing/SliderCard.svelte';
 
 
-// export { FactSheet };
+export { InfoCard, SliderCard };
+
