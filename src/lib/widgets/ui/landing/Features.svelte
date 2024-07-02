@@ -29,7 +29,7 @@
                         <img
                             alt=""
                             loading="lazy"
-                            src="images/649ebf1681209cf058b8c8b3_Arrow%20%281%29.svg"
+                            src="images/arrow-top.svg"
                             class="arrow-icon"
                         />
                     </a> -->

@@ -13,7 +13,7 @@
             </div>
             <div class="btn-holder mg-t-40">
                 <a
-                    href="{castle.link}"
+                    href="{castle.link}" target="_blank"
                     class="main-btn custom w-inline-block"
                 >
                     <div class="div-block-8">

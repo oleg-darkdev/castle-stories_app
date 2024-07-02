@@ -6,13 +6,7 @@
 
 <section class="section is-slider">
 	<main class="main">
-		<div class="cursor no-click">
-			<div class="cursor-move">
-				<div class="cursor-dot">
-					<img src="images/64a2d4ace99be54e912fc988_cursor.png" loading="lazy" alt="" />
-				</div>
-			</div>
-		</div>
+
 		<div class="swiper_component">
 			<div class="container-2">
 				<div class="slider">

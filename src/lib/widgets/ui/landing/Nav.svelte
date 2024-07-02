@@ -9,8 +9,8 @@
 >
 	<div class="nav-container">
 		<a href="/" aria-current="page" class="brand w-nav-brand w--current">
-			<div data-w-id="57865a3a-5f83-2978-66f6-71f0dd3c7f54" class="logo w-embed">
-				<svg
+			<div class="logo w-embed">
+				<!-- <svg
 					width="131"
 					height="28"
 					viewBox="0 0 131 28"
@@ -50,15 +50,15 @@
 						d="M111.061 9.79256H113.903V11.6876H113.982C114.211 11.3542 114.456 11.0471 114.719 10.7664C114.983 10.4857 115.272 10.2488 115.588 10.0558C115.921 9.86275 116.299 9.7136 116.72 9.60832C117.141 9.48549 117.623 9.42408 118.167 9.42408C118.992 9.42408 119.755 9.60832 120.457 9.9768C121.177 10.3453 121.685 10.9155 121.984 11.6876C122.493 10.9857 123.08 10.433 123.747 10.0294C124.414 9.62587 125.247 9.42408 126.248 9.42408C127.686 9.42408 128.801 9.77501 129.59 10.4769C130.397 11.1787 130.801 12.3544 130.801 14.0038V23.4H127.8V15.4514C127.8 14.9074 127.783 14.4161 127.748 13.9774C127.713 13.5212 127.607 13.1352 127.432 12.8194C127.274 12.486 127.028 12.2315 126.695 12.0561C126.362 11.8806 125.905 11.7929 125.326 11.7929C124.309 11.7929 123.572 12.1087 123.115 12.7404C122.659 13.3721 122.431 14.267 122.431 15.425V23.4H119.431V14.6618C119.431 13.7142 119.255 13.0036 118.904 12.5298C118.571 12.0385 117.948 11.7929 117.036 11.7929C116.65 11.7929 116.272 11.8718 115.904 12.0298C115.553 12.1877 115.237 12.4158 114.956 12.7141C114.693 13.0124 114.474 13.3809 114.298 13.8195C114.14 14.2582 114.061 14.7583 114.061 15.3198V23.4H111.061V9.79256Z"
 						fill="currentcolor"
 					/>
-				</svg>
+				</svg> -->
 			</div>
 		</a>
 		<nav role="navigation" class="nav-menu w-nav-menu">
-      {#each navigation as nav}
-        <a href="{nav.href}" class="nav-link top-border w-nav-link">{nav.title}</a>
-      {/each}
+			{#each navigation as nav}
+				<a href="{nav.href}" class="nav-link top-border w-nav-link">{nav.title}</a>
+			{/each}
 			<a
-				href="#contact"
+				href="/"
 				class="nav-button w-inline-block"
 			>
 				<div  class="nav-txt">
@@ -75,123 +75,6 @@
 			</a>
 		</nav>
   </div>
-		<!-- <div class="menu-button w-nav-button">
-			<div data-w-id="5ae46fb1-929b-cd4d-f6b1-732b6cbac737" class="html-embed w-embed">
-				<svg
-					width="48"
-					height="28"
-					viewBox="0 0 48 28"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path d="M16 11L32 11V12L16 12V11ZM16 16L32 16V17H16V16Z" fill="currentcolor" />
-					<rect x="0.5" y="0.5" width="47" height="27" rx="13.5" stroke="currentcolor" />
-				</svg>
-			</div>
-		</div>
-	</div> -->
-	<!-- <div data-w-id="c78a15d2-27a4-abc8-20f4-b8c37d76f12c" class="nav-dropdown">
-		<div class="txt-block ctr-212 mg-r-60">
-			<div class="body-16 is-caps">Models</div>
-			<div data-w-id="c78a15d2-27a4-abc8-20f4-b8c37d76f133" class="mg-t-16 w-dyn-list">
-				<div role="list" class="w-dyn-items">
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/nomi" class="nav-dropdown-link w-inline-block">
-							<h5 class="heading-2">Nomi</h5>
-						</a>
-					</div>
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/axis" class="nav-dropdown-link w-inline-block">
-							<h5 class="heading-2">Axis</h5>
-						</a>
-					</div>
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/rho" class="nav-dropdown-link w-inline-block">
-							<h5 class="heading-2">Rho</h5>
-						</a>
-					</div>
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/tg-2" class="nav-dropdown-link w-inline-block">
-							<h5 class="heading-2">TG-2</h5>
-						</a>
-					</div>
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/paloma" class="nav-dropdown-link w-inline-block">
-							<h5 class="heading-2">Paloma</h5>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="txt-block ctr-212 is-nav">
-			<div class="body-16 is-caps">Legacy models</div>
-			<div class="mg-t-16 w-dyn-list">
-				<div role="list" class="w-dyn-items">
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/myto" class="w-inline-block">
-							<h6 class="heading-3">Myto</h6>
-						</a>
-					</div>
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/kion" class="w-inline-block">
-							<h6 class="heading-3">Kion</h6>
-						</a>
-					</div>
-					<div role="listitem" class="w-dyn-item">
-						<a href="/model/omega" class="w-inline-block">
-							<h6 class="heading-3">Omega</h6>
-						</a>
-					</div>
-				</div>
-			</div>
-			<a href="/models" class="mg-t-16 is-nav w-inline-block">
-				<h5 class="heading-2">All models</h5>
-			</a>
-		</div>
-		<div class="w-layout-grid dropdown-grid">
-			<div id="w-node-c78a15d2-27a4-abc8-20f4-b8c37d76f147-7d76f102" class="w-dyn-list">
-				<div role="list" class="w-dyn-items">
-					<div role="listitem" class="collection-item w-dyn-item">
-						<a href="/model/nomi" class="featured-block-nav w-inline-block">
-							<img
-								src="images/64a31caaf3df758c8b439981_Menu-Nomi.png"
-								loading="lazy"
-								alt=""
-								sizes="(max-width: 767px) 100vw, (max-width: 991px) 51vw, 59vw"
-								srcset="images/64a31caaf3df758c8b439981_Menu-Nomi-p-500.png 500w, images/64a31caaf3df758c8b439981_Menu-Nomi-p-800.png 800w, images/64a31caaf3df758c8b439981_Menu-Nomi.png 896w"
-							/>
-							<div class="mg-t-16 is-caps">
-								<div class="body-16-md is-inline">Nomi</div>
-								<div class="body-16-md is-inline mg-r-8">:</div>
-								<div class="body-16-md is-inline">Diverse, sustainable and comfortable.</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div id="w-node-c78a15d2-27a4-abc8-20f4-b8c37d76f154-7d76f102" class="w-dyn-list">
-				<div role="list" class="w-dyn-items">
-					<div role="listitem" class="collection-item w-dyn-item">
-						<a href="/model/axis" class="w-inline-block">
-							<img
-								src="images/64a31cb7fdb7f470f1296270_Menu-Axis.png"
-								loading="lazy"
-								alt=""
-								sizes="(max-width: 767px) 100vw, (max-width: 991px) 51vw, 59vw"
-								srcset="images/64a31cb7fdb7f470f1296270_Menu-Axis-p-500.png 500w, images/64a31cb7fdb7f470f1296270_Menu-Axis-p-800.png 800w, images/64a31cb7fdb7f470f1296270_Menu-Axis.png 896w"
-							/>
-							<div class="mg-t-16 is-caps">
-								<div class="body-16-md is-inline">Axis</div>
-								<div class="body-16-md is-inline mg-r-8">:</div>
-								<div class="body-16-md is-inline">
-									Classic wood shell with exceptional ergonomics.
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
+		
 	<div class="bg-overlay" />
 </div>

@@ -22,7 +22,7 @@
                 
               </div>
             </div>
-            <a href="#" class="footer-link is-ethy">Lorem  <span class="text-span">Ipsum  simply dummy text</span>
+            <a href="/" class="footer-link is-ethy">Lorem  <span class="text-span">Ipsum  simply dummy text</span>
             </a>
           </div>
           <div class="link-div">
@@ -61,7 +61,8 @@
       <div class="flex-footer-bottom w-full">
         <div class="body-16-md all-caps">Copyright © 2024</div>
         <div class="body-16-md all-caps">
-          <a href="/" target="_blank" class="body-16-md all-caps"> Lorem Ipsum is simply dummy text of the printing </a>  <a href="/" class="body-16-md all-caps">Lorem Ipsum is simply dummy </a> text of the printing 
+          <a href="/" target="_blank" class="body-16-md all-caps"> Lorem Ipsum is simply dummy text of the printing </a>  
+          <a href="/" class="body-16-md all-caps">Lorem Ipsum is simply dummy </a> text of the printing 
         </div>
       </div>
     </div>

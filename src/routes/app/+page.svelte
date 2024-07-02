@@ -6,7 +6,7 @@
 
 
 <svelte:head>
-  <title>APP - Heritage Stories</title>
+  <title>APP - Castle Stories</title>
 </svelte:head>
 
 

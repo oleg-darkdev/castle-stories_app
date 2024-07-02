@@ -36,7 +36,6 @@
                     alt="THE Stories promo image"
                     class="img-philosophy is-paralax"
                 />
-                <!-- <div class="txt-block-absolute left-bottom">Photo: Becker Brakel</div> -->
             </div>
         </div>
         <div class="space-160" />
