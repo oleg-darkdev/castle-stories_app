@@ -54,6 +54,9 @@
 			</div>
 		</a>
 		<nav role="navigation" class="nav-menu w-nav-menu">
+			<a href="/app" target="_blank" class="nav-link top-border w-nav-link">APP</a>
+
+
 			{#each navigation as nav}
 				<a href="{nav.href}" class="nav-link top-border w-nav-link">{nav.title}</a>
 			{/each}

@@ -6,10 +6,14 @@
                 <div class="heading-div">
                     <h3 class="text-is-green">
                         Part of <br /> 
-                        <a href='https://the-stories.vercel.app/' target='_blank' class="serif">THE Stories</a>
+                        <a href='https://the-stories.vercel.app/' target='_blank' class="serif text-[#a44936]">THE Stories</a>
                         <br /> project
                     </h3>
                 </div>
+
+                <a name="the-stories" />
+
+
                 <div class="txt-block ctr-448">
                     <p class="body-22">
                         <span class="serif">Lorem Ipsum</span>

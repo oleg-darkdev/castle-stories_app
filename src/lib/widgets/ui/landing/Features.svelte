@@ -10,11 +10,15 @@
                 Lorem Ipsum <span class="serif">gateway</span> is simply dummy <br /> text of  the printing <br /> and typesetting.
             </h2>
             <div class="flex-horizontal padding-131">
+
+                <a name="features" />
+
+
                 <div class="heading-div hide-mb" />
                 <div class="txt-block ctr-448">
                     {#each features as feature}
                         <p class="body-22 text-is-white">
-                            <span class="serif">
+                            <span class="serif text-[#a44936]" >
                                 {feature.title}
                             </span>
                                 {feature.desc}
