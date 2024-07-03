@@ -8,7 +8,7 @@ const features = [
 		desc: `The board games included in the stories are made of eco-friendly and 100% recyclable materials: wood, metal and eco-paper printed with eco-friendly ink.`
 	},
 	{
-		title: 'OPEN SOURCE:',
+		title: 'Open Source:',
 		desc: `The board game print materials and web application source code are free and publicly available in the repository for download and modification.`
 	}
 ];
