@@ -14,9 +14,9 @@
             <div class="w-dyn-list">
               <div role="list" class="footer-products w-dyn-items">
 
-                {#each scenarios as scenario}
+                {#each countries[0].subregions as country}
                   <div role="listitem" class="w-dyn-item">
-                    <a href="{scenario.href}" target="_blank" class="footer-link">{scenario.title}</a>
+                    <a href="{country.href}" target="_blank" class="footer-link">{country.name}</a>
                   </div>
                 {/each}
                 
@@ -31,7 +31,7 @@
               <div role="list" class="footer-products w-dyn-items">
                 {#each countries as country}
                   <div role="listitem" class="w-dyn-item">
-                    <a href="{country.href}" target="_blank" class="footer-link">{country.title}</a>
+                    <a href="{country.href}" target="_blank" class="footer-link">{country.region}</a>
                   </div>
                 {/each}
 
@@ -40,6 +40,7 @@
           </div>
           <div class="link-div">
             <div class="body-16 all-caps">Navigation</div>
+            <a href="/app" class="footer-link">App</a>
             {#each navigation as nav}
               <a href="{nav.href}" class="footer-link">{nav.title}</a>
             {/each}
@@ -48,11 +49,10 @@
         <div class="in-touch-div">
           <div class="txt-block ctr-448">
             <p class="body-22">
-              <span class="serif">THE Castles Stories</span>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <a  href="/" class="main-btn muted w-inline-block">
-              <div>Get in touch</div>
+              <span class="serif text-[#a44936]">Oleg Medvedev - Author & creator.</span>
+                Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                            </p>
+              <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="main-btn muted w-inline-block">              
+                <div>Get in touch</div>
               <img alt="" loading="lazy" src="images/arrow.svg" class="arrow-icon">
             </a>
           </div>
