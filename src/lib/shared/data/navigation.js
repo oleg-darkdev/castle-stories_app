@@ -4,6 +4,10 @@ const links = [
 			href: '#gallery'
 		},
 		{
+			title: 'About',
+			href: '#about'
+		},
+		{
 			title: 'Features',
 			href: '#features'
 		},
@@ -11,10 +15,7 @@ const links = [
 			title: 'The-stories',
 			href: '#the-stories'
 		},
-		// {
-		// 	title: 'The-stories',
-		// 	href: '#the-stories'
-		// },
+
 
 	]
 

@@ -7,7 +7,16 @@
         <div class="space-160" />
         <div  class="w-layout-grid grid">
             <h2 class="text-is-white">
-                Lorem Ipsum <span class="serif">gateway</span> is simply dummy <br /> text of  the printing <br /> and typesetting.
+                 
+                Seamless, 
+                <br /> 
+                intuitive features 
+                <br /> 
+                <span class="serif text-[#a44936]">THE Castles Stories</span> 
+                to enhance your 
+                <br /> 
+                gamification experience.
+                <!-- <br /> and typesetting. -->
             </h2>
             <div class="flex-horizontal padding-131">
 

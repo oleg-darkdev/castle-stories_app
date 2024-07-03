@@ -4,13 +4,14 @@
         <div class="flex-horizontal is-cta">
             <div class="heading-div footer-cta">
                 <h2 class="text-is-green">
-                    Lorem Ipsum 
+                    Exploring  - 
                     <br />
-                    <span class="serif margin-100">
-                        simply dummy 
-                        <br />‍ 
+                    <span class="serif margin-100 text-[#a44936]">
+                        castles and fortifications
                     </span> 
-                    is of the printing
+                    <br />‍ 
+                        now available 
+                     on every table.
                 </h2>
             </div>
             <div class="img-div-relative">
