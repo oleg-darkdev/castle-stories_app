@@ -32,14 +32,14 @@
         <div class="product-images">
             <img
                 alt=""
-                src="images/slider/main.webp"
+                src="{castle.mainImg}"
                 loading="eager"
                 sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, 28vw"
                 class="image-4"
             />
             <img
                 alt=""
-                src="images/slider/cover.webp"
+                src="{castle.coverImg}"
                 loading="eager"
                 sizes="(max-width: 767px) 32vw, 15vw"
                 class="model-img-small"
