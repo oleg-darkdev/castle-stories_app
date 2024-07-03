@@ -8,11 +8,10 @@
 	</div>
 	<a
 		fs-cc="close"
-		data-w-id="45fe03a8-b6d5-8c7f-da63-257a272dbee8"
-		href="#"
+		href="/"
 		class="main-btn muted w-inline-block"
 	>
 		<div>Accept</div>
-		<img alt="" loading="lazy" src="images/649ea5aad510e5cbb18b7339_Arrow.svg" class="arrow-icon" />
+		<img alt="" loading="lazy" src="images/arrow.svg" class="arrow-icon" />
 	</a>
 </div>
