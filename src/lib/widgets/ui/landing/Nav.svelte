@@ -61,17 +61,17 @@
 				<a href="{nav.href}" class="nav-link top-border w-nav-link">{nav.title}</a>
 			{/each}
 			<a
-				href="/"
+				href="https://oleg-darkdev.vercel.app/" target="_blank" 
 				class="nav-button w-inline-block"
 			>
 				<div  class="nav-txt">
-					work with us
+					CONTACT
 				</div>
 				<div class="nav-arrow-holder">
 					<img
 						src="images/arrow.svg"
 						loading="lazy"
-						alt=""
+						alt="link"
 						class="arrow-icon"
 					/>
 				</div>
