@@ -14,15 +14,17 @@
                 </h2>
             </div>
             <div class="img-div-relative">
+                <!-- footer-cover.webp -->
                 <img
-                    src="images/footer-cover.webp"
+                    src="images/about-2.png"
                     loading="lazy"
                     width="448"
                     alt=""
                     class="cta-img-2"
                 />
+                <!-- logo.svg -->
                 <img
-                    src="images/footer-main.webp"
+                    src="images/about-1.png"
                     loading="lazy"
                     width="448"
                     alt=""

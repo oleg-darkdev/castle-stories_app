@@ -14,7 +14,7 @@
                     <img
                         loading="lazy"
                         sizes="(max-width: 479px) 75vw, (max-width: 767px) 158px, 21vw"
-                        src="images/about-1.webp"
+                        src="images/about-1.png"
                         alt=""
                         class="image-full-width is-refefining"
                     />
@@ -26,7 +26,7 @@
                         <img
                             loading="lazy"
                             sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 39vw, 43vw"
-                            src="images/about-2.webp"
+                            src="images/about-2.png"
                             alt=""
                             class="image-full-width is-home"
                         />
@@ -34,10 +34,10 @@
                     <div class="right-block">
                         <div class="txt-block ctr-448">
                             <p class="body-22">
-                                <span class="serif">THE Castles Stories</span>
+                                <span class="serif text-[#a44936]">THE Castles Stories</span>
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                                <br />
                                 <br />
-                                <span class="serif">THE Castles Stories</span>
+                                <span class="serif text-[#a44936]">THE Castles Stories</span>
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                            </p>
                             <a href="/" class="main-btn muted w-inline-block">
                                 <div>Lorem Ipsum </div>
