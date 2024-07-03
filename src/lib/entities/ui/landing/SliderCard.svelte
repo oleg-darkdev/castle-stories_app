@@ -1,13 +1,14 @@
 <script>
+ 
     export let castle;
-
 </script>
 
-<div role="listitem" class="slider_list-item swiper-slide w-dyn-item">
+
+<div role="listitem" class="mx-auto slider_list-item swiper-slide w-dyn-item">
     <div class="slider_item-wrapper is-vertical">
         <div class="product-name-block">
             <div class="div-block-20">
-                <h3 class="product-name">{castle.title}</h3>
+                <h3 class="product-name text-[#a44936]">{castle.title}</h3>
                 <h4 class="colon-spacer">:</h4>
                 <h4 class="product-motto">{castle.shortDesc}</h4>
             </div>
@@ -18,7 +19,7 @@
                 >
                     <div class="div-block-8">
                         <div>Discover</div>
-                        <div class="text-block-11">{castle.title}</div>
+                        <div class="text-block-11 text-[#a44936]">{castle.title}</div>
                     </div>
                     <img
                         alt=""

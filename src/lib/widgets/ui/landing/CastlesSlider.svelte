@@ -1,6 +1,8 @@
 <script>
 	import {promoCastles} from '$shared';
 	import {SliderCard} from '$entities';	
+	import Carousel from 'svelte-carousel'
+    import { browser } from '$app/environment'
 </script>
 
 
@@ -18,12 +20,12 @@
 				<div class="slider">
 					<div class="hd-block-centred">
 						<h2 class="text-is-white h3-centred">
-							Discover our 
-							<span class="font-is-victor">
-								 simply dummy
+							New 
+							<span class="font-is-victor text-[#a44936]">
+								castles and fortifications 
 							</span>
 							<br />
-							text of the printing 
+							already available.
 						</h2>
 					</div>
 
@@ -31,10 +33,21 @@
 					
 					<div class="slider_list-wrapper swiper w-dyn-list">
 						<div role="list" class="slider_list swiper-wrapper w-dyn-items">
-							<!-- {#each promoCastles as castle} -->
-								<SliderCard castle={promoCastles[0]}/>
-							<!-- {/each} -->
-							
+							{#if browser}
+								<Carousel
+
+									duration={800}
+									autoplay
+									timingFunction="linear"
+									dots={false}
+									arrows={false}
+									swiping={true}
+									>
+									{#each promoCastles as castle}
+										<SliderCard {castle}/>
+									{/each}
+								</Carousel>
+							{/if}
 						</div>
 					</div>
 				</div>
