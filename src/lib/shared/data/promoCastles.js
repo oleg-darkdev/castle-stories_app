@@ -20,6 +20,14 @@ const promoCastles = [
 		shortDesc: `Belgorod-Dnestrovsky, Odessa region, Ukraine. Located on the site of the ancient city of Tyre.`,
 		link: '/'		
 	},
+	{
+		mainImg: 'images/promoCastles/promo-ukr-1.png',
+		coverImg: 'images/promoCastles/promo-ukr-2.png',
+		title: 'Akkerman Fortress',		
+		shortDesc: `Belgorod-Dnestrovsky, Odessa region, Ukraine. Located on the site of the ancient city of Tyre.`,
+		link: '/'		
+	},
+	
 	// {
 	// 	mainImg: 'images/promoCastles/promo-rus-1.png',
 	// 	coverImg: 'images/promoCastles/promo-rus-2.png',
