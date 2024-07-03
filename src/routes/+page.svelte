@@ -27,5 +27,5 @@
 
 	<Footer />
 
-	<InfoCard />
+	<!-- <InfoCard /> -->
 </div>
