@@ -1,20 +1,20 @@
 const links = [
 		{
-			title: 'App',
-			href: '/app'
+			title: 'Gallery',
+			href: '#gallery'
 		},
 		{
-			title: 'lorem',
-			href: '/'
+			title: 'Features',
+			href: '#features'
 		},
 		{
-			title: 'lorem imopsum',
-			href: '/'
+			title: 'The-stories',
+			href: '#the-stories'
 		},
-		{
-			title: 'lorem imopsum',
-			href: '/'
-		},
+		// {
+		// 	title: 'The-stories',
+		// 	href: '#the-stories'
+		// },
 
 	]
 
