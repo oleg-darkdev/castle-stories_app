@@ -50,8 +50,9 @@
         <div class="in-touch-div">
           <div class="txt-block ctr-448">
             <p class="body-22">
-              <span class="serif text-[#a44936]">Oleg Medvedev - Author & creator.</span>
-                Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                            </p>
+              <span class="serif text-[#a44936]">THE Castles Stories.</span>
+                Educational boardgame about castles and fortifications.
+            </p>
               <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="main-btn muted w-inline-block">
                 <div>Get in touch</div>
               <img alt="" loading="lazy" src="images/arrow.svg" class="arrow-icon">

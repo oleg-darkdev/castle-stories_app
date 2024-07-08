@@ -106,7 +106,7 @@
                 <div class="contact-card-content">
                     <h4 class="text-is-white h6-heading">Would you like to create a scenario for your country?</h4>
                     <div class="div-block-11">
-                    <p class="body-18 text-is-white">Would you like to talk about your dream project? Do not hesitate to get in touch for more information and requests.</p>
+                    <p class="body-18 text-is-white">Would you like to talk about your country? Do not hesitate to get in touch for more information and requests.</p>
                     <a href="https://oleg-darkdev.vercel.app/" class="main-btn mg-t-32 w-inline-block">
                         <div>Get in touch</div>
                         <img alt="" loading="lazy" src="images/arrow.svg" class="arrow-icon">

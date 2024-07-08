@@ -17,7 +17,7 @@
             <div class="img-div-relative">
                 <!-- footer-cover.webp -->
                 <img
-                    src="images/about-2.png"
+                    src="images/about-1.png"
                     loading="lazy"
                     width="448"
                     alt=""
@@ -25,7 +25,7 @@
                 />
                 <!-- logo.svg -->
                 <img
-                    src="images/about-1.png"
+                    src="images/promoCastles/promo-pl-1.png"
                     loading="lazy"
                     width="448"
                     alt=""
