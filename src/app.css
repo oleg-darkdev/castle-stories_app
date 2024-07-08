@@ -3057,11 +3057,6 @@ strong {
   overflow: hidden;
 }
 
-.section.our-partners {
-  background-image: url("images/649f20bb5522b0e5c3b4e902_AS_Becker-min.webp");
-  background-position: 50%;
-  background-size: cover;
-}
 
 .section.is-process {
   background-color: var(--charcoal);
@@ -3069,7 +3064,7 @@ strong {
 
 .section.is-about {
   height: 56.25em;
-  background-image: url("images/64a578ff16680548af93b389_About-hero-visual.png");
+  background-image: url("images/banner.png");
   background-position: 50%;
   background-size: cover;
   justify-content: space-between;
@@ -3965,6 +3960,7 @@ strong {
   padding-top: 1.5em;
   display: flex;
 }
+
 
 .number-process {
   width: 100%;
